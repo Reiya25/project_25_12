@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gwon_GH">
+    <!-- 작성자* -->
+    <meta name="keywords" content="포트폴리오, html, css, 영상">
+    <!-- 검색 키워드 -->
+     <meta name="description" content="Hello 디자인 영상 편집을 공부중인 학생입니다.">
+    <!-- 부제(설명)* -->
+     <meta name="robots" content="noindex, nofollow">
+     <!-- 봇 검색 거부 -->
+
+    <!-- Favicons -->
+    <link rel="icon" href="./img/favicon-16x16.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+    <!-- 아이폰용 수정해서 넣기 -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- bootstrap -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos -->
+
+    <link rel="stylesheet" href="./css/app.css">
+    <!-- css 연결 > 제일 밑으로 보내기 -->
+    <title>Gwon_GH's project</title>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- navbar-expend-lg: lg 크기때 삼선 버튼 -->
+             <div class="container">
+                <a href="#" class="navbar-brand">
+                    <!-- <a href="./img/logo.svg"></a> -->
+                    Centum's Gwon
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbarNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="navbarDropdown" role="button" aria-expanded="false" href="#portfolio">Portfolio</a>
+
+                            <!-- 하단메뉴 -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- aria-labelledby="navbarDropdown": 위젯 -->
+                                <li><a class="dropdown-item" href="">디자인</a></li>
+                                <li><a class="dropdown-item" href="">영상</a></li>
+                                <li><a class="dropdown-item" href="">피그마</a></li>
+                                <li><hr class="dropdown-divider" href=""></li>
+                                <li><a class="dropdown-item" href="">Web</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#contect">Contect</a></li>
+                    </ul>
+
+                    <!-- 검색 -->
+                    <form class="d-flex">
+                        <input type="search" class="form-control me-2" placeholder="검색" aria-label="Search">
+                        <button type="submit" class="btn btn-outline-success">Search</button>
+                    </form>
+                </div>
+
+
+             </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero my-5">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-7 order-1 order-md-0">
+                        <img src="./img/cat_1920.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-5 order-0 order-md-1">
+                        <h1>Hello Centum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam natus voluptas amet praesentium adipisci accusantium doloremque molestiae, a omnis, dolorum quia laudantium ipsa soluta facilis aspernatur architecto, veniam tenetur corporis?</p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="row my-5">
+                    <div class="col">
+                        <div class="card bg-secondary text-white py-3 text-center">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, dolores soluta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+
+                <h2 class="text-center my-5">My Career Timeline</h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-item-content" data-aos="flip-left">
+                            <h3 class="">2018</h3>
+                            <p>Started my Journey as a Junior Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-item-content" data-aos="flip-right">
+                            <h3 class="">2020</h3>
+                            <p>Started my Journey as a Junior Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-item-content" data-aos="flip-left">
+                            <h3 class="">2022</h3>
+                            <p>Started my Journey as a Junior Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-item-content" data-aos="flip-right">
+                            <h3 class="">2024</h3>
+                            <p>Started my Journey as a Junior Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-item-content" data-aos="flip-left">
+                            <h3 class="">2025</h3>
+                            <p>Started my Journey as a Junior Developer</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <div class="container my-5">
+                <h3 class="text-center">My Skill</h3>
+                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi cum laborum neque quis quisquam obcaecati beatae, quod et commodi id ipsam numquam, nostrum magnam autem reiciendis dolor expedita. Ab, vel!</p>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;" data-aos="fade-right">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 95%;"></div>
+                        </div>    
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;" data-aos="fade-left" data-aos-delay="300">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 95%;"></div>
+                        </div>    
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>JavaScript</span>
+                            <span>89%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;" data-aos="fade-right" data-aos-delay="600">
+                            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 95%;"></div>
+                        </div>    
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Photoshop</span>
+                            <span>96%</span>
+                        </div>
+                        <div class="progress" style="height: 20px;" data-aos="fade-left" data-aos-delay="900">
+                            <div class="progress-bar bg-pramary progress-bar-striped progress-bar-animated" style="width: 95%;"></div>
+                        </div>    
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="card">
+            <div class="container">
+                <div class="row mt-3">
+
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <a href="./card-1.html" target="_blank"><img src="./img/cat_1920.jpg" class="card-img-top mt-4" alt=""></a>
+                        <div class="card-body">
+                            <div class="card-title">
+                                Hello Centum
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                                <a href="./card-1.html" target="_blank"><button class="btn btn-success">자세히보기</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <a href="./card-2.html" target="_blank"><img src="./img/camel_1920.jpg" class="card-img-top mt-4" alt=""></a>
+                        <div class="card-body">
+                            <div class="card-title">
+                                Hello Centum
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                                <a href="./card-2.html" target="_blank"><button class="btn btn-success">자세히보기</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <a href="./card-3.html" target="_blank"><img src="./img/deer_1920.jpg" class="card-img-top mt-4" alt=""></a>
+                        <div class="card-body">
+                            <div class="card-title">
+                                Hello Centum
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                                <a href="./card-3.html" target="_blank"><button class="btn btn-success">자세히보기</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <a href="./card-4.html" target="_blank"><img src="./img/chameleon_1920.jpg" class="card-img-top mt-4" alt=""></a>
+                        <div class="card-body">
+                            <div class="card-title">
+                                Hello Centum
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                                <a href="./card-4.html" target="_blank"><button class="btn btn-success">자세히보기</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <!-- Modal -->
+            <div class="container mt-5">
+                <h2 class="text-center mb-5">Design & Video Portfolio</h2>
+                <input type="text" id="searchInput" class="form-control" placeholder="검색어를 입력하세요.">
+
+                <!-- 분류 버튼 -->
+                <div class="text-center">
+                    <button class="btn btn-primary mt-4 filter-btn" data-filter="all" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">전체</button>
+                    <button class="btn btn-primary mt-4 filter-btn" data-filter="design" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="140" data-aos-offset="0">디자인</button>
+                    <button class="btn btn-primary mt-4 filter-btn" data-filter="video" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="140" data-aos-offset="0">영상</button>
+                    <button class="btn btn-primary mt-4 filter-btn" data-filter="figma" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">피그마</button>
+                </div>
+
+                <!-- 포트폴리오 아이템 -->
+                <div class="row mt-5">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item" data-category="design">
+                        <img src="./img/cat_1920.jpg" alt="디자인 1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#designModal1">
+                        <h4 class="text-center mt-3">디자인 프로젝트 1</h4>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item" data-category="design">
+                        <img src="./img/deer_1920.jpg" alt="디자인 2" class="img-fluid" data-bs-toggle="modal" data-bs-target="#designModal2">
+                        <h4 class="text-center mt-3">디자인 프로젝트 2</h4>
+                    </div>
+
+                                   
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item" data-category="video">
+                        <img src="./img/cat_1920.jpg" alt="영상 1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                        <h4 class="text-center mt-3">영상 프로젝트 1</h4>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item" data-category="video">
+                        <img src="./img/deer_1920.jpg" alt="영상 2" class="img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                        <h4 class="text-center mt-3">영상 프로젝트 2</h4>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item" data-category="figma">
+                        <img src="./img/camel_1920.jpg" alt="피그마 1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#figmaModal1">
+                        <h4 class="text-center mt-3">피그마 프로젝트 1</h4>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item" data-category="figma">
+                        <img src="./img/chameleon_1920.jpg" alt="피그마 2" class="img-fluid" data-bs-toggle="modal" data-bs-target="#figmaModal2">
+                        <h4 class="text-center mt-3">피그마 프로젝트 2</h4>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="tabs" class="tabs my-5">
+            <!-- tabs -->
+            <div class="container" data-aos="fade-up">
+                <h2 class="text-center">Departments</h2>
+                <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <ul class="nav nav-tabs flex-column">
+                            <li class="nav-item"><a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabs-tab-1" href="">디자인 1</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-2" href="">디자인 2</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-3" href="">디자인 3</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-4" href="">디자인 4</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-5" href="">디자인 5</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-10">
+                        <div class="tab-content">
+
+                            <div class="tab-pane active show" id="tabs-tab-1">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h3>디자인 1 설명을 적으시오.</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nemo!</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fugit nisi est, in temporibus iste, laborum fuga dicta veniam voluptatum obcaecati tempora, soluta quas unde. Expedita aliquid magni sapiente fuga?</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="./img/cat_1920.jpg"><img src="./img/cat_1920.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="tabs-tab-2">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>디자인 2 설명을 적으시오.</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nemo!</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fugit nisi est, in temporibus iste, laborum fuga dicta veniam voluptatum obcaecati tempora, soluta quas unde. Expedita aliquid magni sapiente fuga?</p>
+                                    </div>
+                                    <div class="col-lg-4 order-1 order-lg-2">
+                                        <a href="./img/cat_1920.jpg"><img src="./img/cat_1920.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="tabs-tab-3">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h3>디자인 3 설명을 적으시오.</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nemo!</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fugit nisi est, in temporibus iste, laborum fuga dicta veniam voluptatum obcaecati tempora, soluta quas unde. Expedita aliquid magni sapiente fuga?</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="./img/cat_1920.jpg"><img src="./img/cat_1920.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="tabs-tab-4">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h3>디자인 4 설명을 적으시오.</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nemo!</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fugit nisi est, in temporibus iste, laborum fuga dicta veniam voluptatum obcaecati tempora, soluta quas unde. Expedita aliquid magni sapiente fuga?</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="./img/cat_1920.jpg"><img src="./img/cat_1920.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="tab-pane" id="tabs-tab-5">
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h3>디자인 5 설명을 적으시오.</h3>
+                                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nemo!</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fugit nisi est, in temporibus iste, laborum fuga dicta veniam voluptatum obcaecati tempora, soluta quas unde. Expedita aliquid magni sapiente fuga?</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="./img/cat_1920.jpg"><img src="./img/cat_1920.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="modal-section">
+            <div class="container">
+
+                <div class="modal" id="designModal1" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>디자인 프로젝트 1</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            
+                            <div class="modal-body">
+                                <img src="./img/cat_1920.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="modal-footer">
+                                <p>디자인 프로젝트 1에 대한 설명을 작성해주세요...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="designModal2" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            
+                            <div class="modal-header">
+                                <h5>디자인 프로젝트 2</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            
+                            <div class="modal-body">
+                                <img src="./img/deer_1920.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="modal-footer">
+                                <p>디자인 프로젝트 2에 대한 설명을 작성해주세요...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                                
+                <div class="modal fade" id="videoModal1" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            
+                            <div class="modal-header">
+                                <h5>영상 프로젝트 1</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/QWR3hosrk-I?autoplay=1&mute=1&control=1"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <p>영상 프로젝트 1에 대한 설명을 작성해주세요...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="videoModal2" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            
+                            <div class="modal-header">
+                                <h5>영상 프로젝트 2</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9">
+                                    <video controls autoplay muted>
+                                        <source src="./img/mov_bbb.mp4" type="video/mp4">
+                                        브라우저에서 영상을 지원하지 못하고 있습니다.
+                                    </video>
+                                    <!-- 받아온 영상은 100메가까지 가능 -->
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <p>영상 프로젝트 2에 대한 설명을 작성해주세요...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal" id="figmanModal1" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            
+                            <div class="modal-header">
+                                <h5>피그마 프로젝트 1</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            
+                            <div class="modal-body">
+                                <img src="./img/camel_1920.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="modal-footer">
+                                <p>피그마 프로젝트 1에 대한 설명을 작성해주세요...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="figmanModal2" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            
+                            <div class="modal-header">
+                                <h5>피그마 프로젝트 2</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            
+                            <div class="modal-body">
+                                <img src="./img/camel_1920.jpg" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="modal-footer">
+                                <p>피그마 프로젝트 2에 대한 설명을 작성해주세요...</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <div class="text-center">
+                <a href="#" class="footer_a text-white">Copyleft 2025 by Gwon_GH</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

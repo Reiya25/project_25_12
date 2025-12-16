@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gwon_GH">
+    <!-- 작성자* -->
+    <meta name="keywords" content="포트폴리오, html, css, 영상">
+    <!-- 검색 키워드 -->
+     <meta name="description" content="Hello 디자인 영상 편집을 공부중인 학생입니다.">
+    <!-- 부제(설명)* -->
+     <meta name="robots" content="noindex, nofollow">
+     <!-- 봇 검색 거부 -->
+
+    <!-- Favicons -->
+    <link rel="icon" href="./img/min_con.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/apple-touch-min_con.png">
+    <!-- 아이폰용 수정해서 넣기 -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- bootstrap -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos -->
+
+    <link rel="stylesheet" href="./css/app.css">
+    <!-- css 연결 > 제일 밑으로 보내기 -->
+    <title>Gwon_GH's project</title>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- navbar-expend-lg: lg 크기때 삼선 버튼 -->
+             <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <!-- <a href="./img/logo.svg"></a> -->
+                    Centum's Gwon
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbarNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#resume">Resume</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="navbarDropdown" role="button" aria-expanded="false" href="#portfolio">Portfolio</a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- aria-labelledby="navbarDropdown": 위젯 -->
+                                <li><a class="dropdown-item" href="">디자인</a></li>
+                                <li><a class="dropdown-item" href="">영상</a></li>
+                                <li><a class="dropdown-item" href="">피그마</a></li>
+                                <li><hr class="dropdown-divider" href=""></li>
+                                <li><a class="dropdown-item" href="">Web</a></li>
+                            </ul>
+                            <!-- 하단메뉴 -->
+
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contect">Contect</a></li>
+                    </ul>
+
+                    <form class="d-flex">
+                        <input type="search" class="form-control me-2" placeholder="검색" aria-label="Search">
+                        <button type="submit" class="btn btn-outline-success">Search</button>
+                    </form>
+                    <!-- 검색 -->
+                </div>
+
+
+             </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="card1">
+            <div class="container my-3">
+                <div class="row">
+                    <div class="col-lg-9 col-md-12" data-aos="fade-up" data-aos-duration="3000">
+                        <img src="./img/cat_1920.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-12 my-2">
+                        <h2>설명을 적어주세요.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer id="footer" class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <div class="text-center">
+                <a href="#" class="footer_a text-white">Copyleft 2025 by Gwon_GH</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
